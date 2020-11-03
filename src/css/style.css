@@ -1,0 +1,25 @@
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    background-image: url(/./src/img/facingDown.png);
+    background-size: cover;
+}
+
+.grid div.flag {
+    background-image: url(/./src/img/flagged.png);
+    background-size: cover;
+    z-index: 1;
+}
+
+.bomb.active {
+    background-image: url(/./src/img/bomb.png);
+    background-size: cover;
+}
+
